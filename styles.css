@@ -1,0 +1,27 @@
+/* header */
+
+.header {
+    text-align: center;
+}
+
+/* .description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageBox {
+    position:relative;
+    display: block;
+    width: 250px;
+    height: 250px;
+    border: solid 1px black;
+    overflow: hidden;
+}
+*/
+
+.image { 
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+} 
