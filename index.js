@@ -12,13 +12,11 @@ $(function() {
     function displayCharacter(data) {
         data.forEach(function(character) {
             $(".grid").append(`
-            <div class="card col-4">
+            <div class="card col-3 m-2">
                     <div class="image" style="background-image: url('${character.imageUrl}');">
                     </div>
-                <div class="description">
-                    <div class="fullName">${character.fullName}</div>
-                    <div class="title">${character.title}</div>
-                </div>
+                    <h2 class="fullName text-center">${character.fullName}</h2>
+                    <p class="title text-center">${character.title}</p>
             </div>
 
             `)
@@ -26,5 +24,6 @@ $(function() {
     }
 
     // fonction recherche // 
+    function submit() {}
 
 })  

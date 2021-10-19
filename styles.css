@@ -1,27 +1,33 @@
-/* header */
-
-.header {
-    text-align: center;
+@font-face {
+    font-family: "Game-of-Thrones";
+    src: url("assets/Game-of-Thrones.ttf") format("truetype");
 }
 
-/* .description {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+h1 {
+    font-family: "Game-of-Thrones";
 }
 
-.imageBox {
-    position:relative;
-    display: block;
-    width: 250px;
-    height: 250px;
-    border: solid 1px black;
-    overflow: hidden;
+h2 {
+    font-family: "Game-of-Thrones";
+    font-size: 14px;
 }
-*/
+   
+header {
+    margin: 30px 0px;
+}
+
+.card {
+    padding: 10px 20px 0px 10px;
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.26);
+}
+
+.fullName {
+    margin: 10px 5px;
+}
 
 .image { 
     background-position: center;
     background-size: cover;
     height: 200px;
+    width: auto;
 } 
